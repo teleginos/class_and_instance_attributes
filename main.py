@@ -1,6 +1,3 @@
-from random import randint
-
-
 class Building:
     total = 0
 
@@ -10,8 +7,9 @@ class Building:
 
 list_building = []
 
-for i in range(randint(40, 100)):
+for i in range(40):
     house = Building()
+    print(house)
     list_building.append(house)
 
 
